@@ -20,3 +20,6 @@ window.onscroll = () => {
 
     header.classList.toggle('sticky', window.scrollY > 100);
 };
+menuIcon.onclick = () => {
+    navbar.classList.toggle('active');
+};
